@@ -1,0 +1,43 @@
+{
+  "name": "ocamllings",
+  "version": "0.0.0",
+  "description": "Building for semantic versioning of dune project",
+  "scripts": {
+    "test": "dune test",
+    "test:coverage": "dune runtest --instrument-with bisect_ppx && bisect-ppx-report summary",
+    "test:coverage:html": "dune runtest --instrument-with bisect_ppx && bisect-ppx-report html",
+    "build": "dune build",
+    "clean": "dune clean",
+    "commit": "git-cz",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^8.0.0",
+    "@semantic-release/commit-analyzer": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bxrne/ocamllings.git"
+  },
+  "keywords": [
+    "ocaml",
+    "functional-programming",
+    "exercises",
+    "99-problems"
+  ],
+  "author": "Adam Byrne <adamrbyrne@gmail.com>",
+  "license": "MIT"
+}
