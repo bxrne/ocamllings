@@ -25,9 +25,4 @@ let test_rle () =
   ) test_cases 
 
 
-let () =
-  run "Tests" [
-    ("RLE", [
-      test_case "test_encode_decode_rle" `Quick test_rle;
-    ]);
-  ]
+

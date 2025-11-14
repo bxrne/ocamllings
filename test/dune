@@ -1,3 +1,4 @@
 (test
- (name test_rle)
- (libraries alcotest rle))
+ (name test_runner)
+ (libraries alcotest rle)
+ (modules test_runner test_rle))
