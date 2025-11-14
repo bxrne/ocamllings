@@ -32,3 +32,14 @@ Learning OCaml through small coding challenges that are fun and practical.
 - [ ] Monte Carlo Simulation - Estimate the value of Pi using Monte Carlo methods 
 - [ ] Black-Scholes Option Pricing - Implement the Black-Scholes formula for European options
 
+## Usage
+
+```bash 
+
+git clone https://github.com/bxrne/ocamllings.git 
+cd ocamllings/ 
+
+dune build
+
+dune runtest -w # run test suite on file change 
+```
