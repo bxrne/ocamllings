@@ -6,7 +6,7 @@ Learning OCaml through small coding challenges that are fun and practical.
 
 #### Compression 
 - [x] Run-Length Encoding (RLE) – encode and decode sequences
-- [ ] Delta Encoding – store differences between consecutive numbers
+- [x] Delta Encoding – store differences between consecutive numbers
 - [ ] Simple Huffman Encoding – compress text based on character frequency
 
 #### Streams & Lazy Evaluation
