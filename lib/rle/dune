@@ -1,3 +1,3 @@
 (library
  (name rle)
- (modules rle delta))
+ (modules rle))
