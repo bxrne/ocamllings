@@ -1,3 +1,4 @@
 (library
  (name lazyfib)
- (modules lazyfib))
+ (modules lazyfib)
+ (instrumentation (backend bisect_ppx)))

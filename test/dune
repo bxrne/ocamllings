@@ -1,4 +1,5 @@
 (test
  (name test_runner)
  (libraries alcotest rle delta lazyfib stack queue)
- (modules test_runner test_rle test_delta test_lazyfib test_stack test_queue))
+ (modules test_runner test_rle test_delta test_lazyfib test_stack test_queue)
+ (instrumentation (backend bisect_ppx)))

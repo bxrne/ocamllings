@@ -1,3 +1,4 @@
 (library
  (name delta)
- (modules delta))
+ (modules delta)
+ (instrumentation (backend bisect_ppx)))
