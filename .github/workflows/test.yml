@@ -19,6 +19,7 @@ jobs:
       with:
         ocaml-compiler: 5.1.x
         dune-cache: true
+        opam-env: true
         
     - name: Install dependencies
       run: |
