@@ -2,6 +2,19 @@
 
 Learning OCaml through small coding challenges that are fun and practical.
 
+
+## Usage
+
+Once all the tests are done I will make a branch with a full test suite but an empty set of solutions (will leave stubs).
+
+```bash 
+git clone https://github.com/bxrne/ocamllings.git 
+cd ocamllings/ 
+
+dune build
+
+dune runtest -w # run test suite on file change 
+```
 ## Problems
 
 #### Compression 
@@ -32,14 +45,3 @@ Learning OCaml through small coding challenges that are fun and practical.
 - [ ] Monte Carlo Simulation - Estimate the value of Pi using Monte Carlo methods 
 - [ ] Black-Scholes Option Pricing - Implement the Black-Scholes formula for European options
 
-## Usage
-
-```bash 
-
-git clone https://github.com/bxrne/ocamllings.git 
-cd ocamllings/ 
-
-dune build
-
-dune runtest -w # run test suite on file change 
-```
