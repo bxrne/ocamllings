@@ -1,0 +1,3 @@
+(library
+ (name huffman)
+ (modules huffman))

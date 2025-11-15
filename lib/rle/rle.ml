@@ -1,5 +1,11 @@
 (** Run-Length Encoding (RLE) *)
 
+(*
+    Run-Length Encoding is a simple form of data compression where consecutive
+    identical elements are stored as a single element and a count. For example,
+    the string "aaabbbccdaa" would be encoded as [('a', 3); ('b', 3); ('c', 2); ('d', 1); ('a', 2)].
+*)
+
 (* Decode a run-length encoded list of (char, count) pairs *)
 let decode (pairs : (char * int) list) : string =
   let buf = Buffer.create 16 in
