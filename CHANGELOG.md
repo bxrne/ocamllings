@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/bxrne/ocamllings/compare/v1.1.0...v1.2.0) (2025-11-15)
+
+
+### Features
+
+* **lib, test:** addded lazy fib ([064f773](https://github.com/bxrne/ocamllings/commit/064f773da1a7990190504b2caca90d99eae5a240))
+* **lib, test:** added stack ([edc9d42](https://github.com/bxrne/ocamllings/commit/edc9d42478d5594a02d64ff6360a0f00b9f0393c))
+
 # [1.1.0](https://github.com/bxrne/ocamllings/compare/v1.0.0...v1.1.0) (2025-11-15)
 
 
