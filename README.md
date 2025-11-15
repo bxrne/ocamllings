@@ -10,7 +10,7 @@ Learning OCaml through small coding challenges that are fun and practical.
 - [ ] Simple Huffman Encoding – compress text based on character frequency
 
 #### Streams & Lazy Evaluation
-- [ ] Lazy Fibonacci Sequence - Implement an infinite, lazily evaluated Fibonacci sequence using OCaml streams
+- [x] Lazy Fibonacci Sequence - Implement an infinite, lazily evaluated Fibonacci sequence using OCaml streams
 - [ ] Stream Filtering - Implement a lazy Sieve of Eratosthenes to find prime numbers
 - [ ] File Streaming - Read a file line-by-line as a lazy stream, processing each line incrementally
 

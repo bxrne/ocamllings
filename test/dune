@@ -1,4 +1,4 @@
 (test
  (name test_runner)
- (libraries alcotest rle delta)
- (modules test_runner test_rle test_delta))
+ (libraries alcotest rle delta lazyfib)
+ (modules test_runner test_rle test_delta test_lazyfib))
