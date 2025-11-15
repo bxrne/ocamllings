@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/bxrne/ocamllings/compare/v1.3.2...v1.3.3) (2025-11-15)
+
+
+### Bug Fixes
+
+* **.github:** Add dep for test CI ([0d8e255](https://github.com/bxrne/ocamllings/commit/0d8e255d5f3e1029a76b1e0a6383bf151b0c3b63))
+
 ## [1.3.2](https://github.com/bxrne/ocamllings/compare/v1.3.1...v1.3.2) (2025-11-15)
 
 
