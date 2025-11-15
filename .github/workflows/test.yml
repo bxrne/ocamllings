@@ -23,9 +23,8 @@ jobs:
         
     - name: Install dependencies
       run: |
-        opam install dune
+        opam install dune alcotest bisect_ppx
         opam install . --deps-only --with-test
-        opam install bisect_ppx
         eval $(opam env)
         
     - name: Run tests with coverage
