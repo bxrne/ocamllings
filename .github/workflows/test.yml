@@ -26,9 +26,11 @@ jobs:
         opam install dune
         opam install . --deps-only --with-test
         opam install bisect_ppx
+        eval $(opam env)
         
     - name: Run tests with coverage
       run: |
+        eval $(opam env)
         dune runtest --instrument-with bisect_ppx
         bisect-ppx-report html
         bisect-ppx-report summary
