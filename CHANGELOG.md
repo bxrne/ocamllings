@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bxrne/ocamllings/compare/v1.0.0...v1.1.0) (2025-11-15)
+
+
+### Features
+
+* **lib, test:** added delta encoding ([3cde31e](https://github.com/bxrne/ocamllings/commit/3cde31e187355e5da0a124be55014f4a6e99535e))
+
 # 1.0.0 (2025-11-14)
 
 
