@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bxrne/ocamllings/compare/v1.3.0...v1.3.1) (2025-11-15)
+
+
+### Bug Fixes
+
+* **.github:** enable opam env in test CI ([c17e2a0](https://github.com/bxrne/ocamllings/commit/c17e2a043a60a59bd8655a237bf5341bb80723f3))
+
 # [1.3.0](https://github.com/bxrne/ocamllings/compare/v1.2.0...v1.3.0) (2025-11-15)
 
 
