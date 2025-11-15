@@ -10,4 +10,8 @@ let () =
     ("Streams", [
       test_case "test_lazyfib" `Quick Test_lazyfib.test_fib; 
     ]);
+
+    ("Data Structures", [
+      test_case "test_stack" `Quick Test_stack.test_stack;
+    ]);
   ]
