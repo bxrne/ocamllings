@@ -1,6 +1,6 @@
 open Alcotest
 
-open Rle 
+open Lib 
 
 (* Given a set of strings and their expected RLE encodings, test the encode and decode functions *)
 let test_rle () =
@@ -13,9 +13,9 @@ let test_rle () =
     ("AABBAA", [('A', 2); ('B', 2); ('A', 2)]);
   ] in 
   List.iter (fun (input, expected_encoding) ->
-    let encoded = encode input in
-    let expected_decoded = decode expected_encoding in
-    let decoded = decode encoded in 
+    let encoded = Rle.encode input in
+    let expected_decoded = Rle.decode expected_encoding in
+    let decoded = Rle.decode encoded in 
     (* is the expected_encoding the output of encoding input? *)
     check (list (pair char int)) "Encoding matches expected" expected_encoding encoded;
     (* is decoding expected_encoding the same as input? *)

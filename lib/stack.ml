@@ -15,6 +15,3 @@ let pop (s: 'a stack) : 'a stack option =
   match s with
   | Empty -> None 
   | Node(_, tail) -> Some(tail)
-
-
-

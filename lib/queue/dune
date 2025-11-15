@@ -1,4 +1,0 @@
-(library
- (name queue)
- (modules queue)
- (instrumentation (backend bisect_ppx)))

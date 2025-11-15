@@ -1,6 +1,6 @@
 open Alcotest
 
-open Delta
+open Lib 
 
 (* Given a set of integer lists and their expected delta encodings, test the encode and decode functions *)
 let test_delta () =
@@ -13,9 +13,9 @@ let test_delta () =
     ([0; 5; 15; 30], [0; 5; 10; 15]);
   ] in 
   List.iter (fun (input, expected_encoding) ->
-    let encoded = encode input in
-    let expected_decoded = decode expected_encoding in
-    let decoded = decode encoded in 
+    let encoded = Delta.encode input in
+    let expected_decoded = Delta.decode expected_encoding in
+    let decoded = Delta.decode encoded in 
     (* is the expected_encoding the output of encoding input? *)
     check (list int) "Encoding matches expected" expected_encoding encoded;
     (* is decoding expected_encoding the same as input? *)

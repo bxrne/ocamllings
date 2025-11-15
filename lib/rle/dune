@@ -1,4 +1,0 @@
-(library
- (name rle)
- (modules rle)
- (instrumentation (backend bisect_ppx)))

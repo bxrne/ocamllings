@@ -30,5 +30,3 @@ let dequeue q =
        | h :: t -> Some (h, normalize { q' with front = t }))
   | h :: t ->
       Some (h, normalize { q with front = t })
-
-

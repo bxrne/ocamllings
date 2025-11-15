@@ -1,4 +1,4 @@
 (executable
  (public_name ocamllings)
  (name main)
- (libraries rle))
+ (libraries lib))

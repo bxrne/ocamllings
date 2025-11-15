@@ -31,4 +31,3 @@ let decode lst =
         aux x (x :: acc) rest
     in
     x0 :: aux x0 [] xs
-

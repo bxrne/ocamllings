@@ -1,4 +1,0 @@
-(library
- (name stack)
- (modules stack)
- (instrumentation (backend bisect_ppx)))
