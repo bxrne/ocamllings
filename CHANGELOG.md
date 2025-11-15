@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/bxrne/ocamllings/compare/v1.3.1...v1.3.2) (2025-11-15)
+
+
+### Bug Fixes
+
+* **.github:** add explicit opam env init to test CI ([ae9f219](https://github.com/bxrne/ocamllings/commit/ae9f219f3464f66e39ad0e590f6b642dcaaf7330))
+
 ## [1.3.1](https://github.com/bxrne/ocamllings/compare/v1.3.0...v1.3.1) (2025-11-15)
 
 
