@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/bxrne/ocamllings/compare/v1.3.4...v1.3.5) (2025-11-15)
+
+
+### Bug Fixes
+
+* **test:** added queue tests) ([8f2a911](https://github.com/bxrne/ocamllings/commit/8f2a9119bd01faed7b21b4d47ab4d24dd6e9f26c))
+
 ## [1.3.4](https://github.com/bxrne/ocamllings/compare/v1.3.3...v1.3.4) (2025-11-15)
 
 
