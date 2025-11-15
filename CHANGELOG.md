@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/bxrne/ocamllings/compare/v1.3.3...v1.3.4) (2025-11-15)
+
+
+### Bug Fixes
+
+* added bisect_ppx instrumentation ([b9c6110](https://github.com/bxrne/ocamllings/commit/b9c6110dd4c68a001a65891d0df8114eeba05969))
+
 ## [1.3.3](https://github.com/bxrne/ocamllings/compare/v1.3.2...v1.3.3) (2025-11-15)
 
 
