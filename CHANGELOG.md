@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/bxrne/ocamllings/compare/v1.2.0...v1.3.0) (2025-11-15)
+
+
+### Features
+
+* **lib, test:** added queue ([2da9ca0](https://github.com/bxrne/ocamllings/commit/2da9ca0d6ec4b3d766eb1033e645b0aafea1e7a8))
+
 # [1.2.0](https://github.com/bxrne/ocamllings/compare/v1.1.0...v1.2.0) (2025-11-15)
 
 
