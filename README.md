@@ -20,7 +20,7 @@ Learning OCaml through small coding challenges that are fun and practical.
 - [ ] INI Parser - Parse a basic INI configuration file using combinator functions
 
 #### Data Structures 
-- [ ] Immutable Stack and Queue - Implement purely functional stack and queue with OCaml lists
+- [x] Immutable Stack and Queue - Implement purely functional stack and queue with OCaml lists
 - [ ] Persistent Binary Search Tree - Write insert/find/delete for a persistent BST
 - [ ] Trie (Prefix Tree) - Build and query a trie for word lookup
 

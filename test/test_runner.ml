@@ -13,5 +13,6 @@ let () =
 
     ("Data Structures", [
       test_case "test_stack" `Quick Test_stack.test_stack;
+      test_case "test_queue" `Quick Test_queue.test_queue;
     ]);
   ]
